@@ -14,7 +14,7 @@
 
         @font-face {
             font-family: 'Roboto';
-            src: url(fontes/Roboto-Regular.ttf) format('truetype');
+            src: url(fontes/Roboto-Light.ttf) format('truetype');
         }
         
         body {
@@ -23,32 +23,36 @@
 
         main {
             margin-top: 20px;
-            margin-left: 10px;
-            margin-right: 500px;
+            margin-left: 200px;
+            margin-right: 200px;
             border-radius: 20px;
             
-            background-color: rgba(255, 255, 255, 0.591);
+            background-color: rgba(255, 255, 255, 0.635);
             text-align: center justify;
         }
 
         p {
             font-family: 'Roboto';
             text-indent: 10px;
-            font-size: 16.5px;
-            text-align: start;
-            line-height: normal;
-            
+            font-size: 25px;
+            padding: 10px;
         }
 
-        ol {
-            font-family: 'Roboto';
-            font-size: 15px;
-            text-align: left;
+        div#livro {
+            text-align: center;
+        }
+
+        div#monstro {
+            text-align: center;
+        }
+
+        div#circulo {
+            text-align: center;
         }
 
         h1 {
             text-align: center;
-            font-size: 60px;
+            font-size: 75px;
             font-family: 'Roman', serif;
         }
 
@@ -57,14 +61,30 @@
             font-size: 45px;
         }
 
-        picture {
-            image-rendering: auto;
+        h3 {
+            font-size: 25px;
+            text-indent: 10px;
+        }
+
+        ul {
+            font-size: 20px;
+        }
+
+        div#imagens {
+            text-align: center;
+        }
+
+        div#dante{
+            text-align: center;
         }
 
         footer {
             text-align: center;
-            background-color: rgba(217, 0, 0, 0.552);
+            background-image: linear-gradient(to left, rgb(255, 168, 5), rgb(180, 0, 0));
             color: white;
+            font-size: 30px;
+            color: black;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -75,47 +95,58 @@
         <main>
             <article>
                 <h2>Resenha Crítica</h2>
-                <p>O inferno é o primeiro livro da obra “A Divina Comédia” de Dante Alighieri, uma jornada literária fascinante que oferece uma visão profunda da condição humana, da moralidade e da teologia na tradição da Idade Média. Escrita no início do século XIV, ela busca mostrar o mais próximo que se imaginaria do inferno de acordo com as tradições e crenças da época, onde Dante que além de escritor também é o personagem principal e é guiado nessa profunda trajetória por Virgílio, seu escritor favorito.</p>
+                <p id="p1">O inferno é o primeiro livro da obra “A Divina Comédia” de <a href="https://pt.wikipedia.org/wiki/Dante_Alighieri">Dante Alighieri</a>, uma jornada literária fascinante que oferece uma visão profunda da condição humana, da moralidade e da teologia na tradição da Idade Média. Escrita no início do século XIV, ela busca mostrar o mais próximo que se imaginaria do inferno de acordo com as tradições e crenças da época, onde Dante que além de escritor também é o personagem principal e é guiado nessa profunda trajetória por <a href="https://www.ebiografia.com/virgilio/">Virgílio</a>, seu escritor favorito.</p>
 
-                <div>
-                    <img src="imagens/foto-livro-certa2.jpg"><img src="imagens/foto-dante-selva-certo.jpg">
-                </div>
-
-                <p>O portal do inferno não tem portas ou cadeados, somente um arco com um aviso que adverte: “Deixai toda a esperança, vós que entrais!”. esta é uma das primeiras passagens do livro, para mostrar um ambiente aterrorizante. Dante retrata uma paisagem habitualmente infernal, com figuras históricas, mitológicas e contemporâneas, cada um sendo punido devidamente de acordo com seus pecados.
+                    
+                <p>O portal do inferno não tem portas ou cadeados, somente um arco com um aviso que adverte: <i>“Deixai toda a esperança, vós que entrais!”</i> essa é uma das primeiras passagens do livro, para mostrar um ambiente aterrorizante. Dante retrata uma paisagem habitualmente infernal, com figuras históricas, mitológicas e contemporâneas, cada um sendo punido devidamente de acordo com seus pecados.
                 </p>
 
-                <p>É possível notar uma incrível imaginação poética, onde traz uma melhor experiência ao leitor, mostrando com detalhes cada canto daquele lugar nunca explorado. O abismo é dividido em noves círculos, onde cada círculo representa um grau do pecado, e cada nível uma punição referente ao pecado cometido.</p>
+                <p>É possível notar uma incrível imaginação poética, onde traz uma melhor experiência ao leitor, mostrando com detalhes cada canto daquele lugar nunca explorado. Nesta trilogia o <strong><abbr title="profundeza">abismo</abbr></strong> é dividido em noves círculos, onde cada círculo representa um grau do pecado, e cada nível uma punição referente ao pecado cometido.</p>
 
-                    <ol>
-                        <ol>Primeiro Círculo: O Limbo (virtuosos pagãos);
-                        </ol>
-                        <ol>Segundo Círculo: Vale dos Ventos (luxúria);</ol>
-                        <ol>Terceiro Círculo: Lago de Lama (gula);
-                        </ol>
-                        <ol>Quarto Círculo: Colinas de Rocha (ganância);
-                        </ol>
-                        <ol>Quinto Círculo: Rio Estige (ira);
-                        </ol>
-                        <ol>Sexto Círculo: Cemitério de Fogo (heresia);
-                        </ol>
-                        <ol>Sétimo Círculo: Vale do Flegetonte (violência);
-                        </ol>
-                        <ol>Oitavo Círculo: o Malebolge (fraude);
-                        </ol>
-                        <ol>Nono Círculo: Lago Cocite (traição).
+                    <ul>
+                        <li>Primeiro Círculo: O Limbo (virtuosos pagãos);
+                        </li>
+                        <li>Segundo Círculo: Vale dos Ventos (luxúria);</li>
+                        <li>Terceiro Círculo: Lago de Lama (gula);
+                        </li>
+                        <li>Quarto Círculo: Colinas de Rocha (ganância);
+                        </li>
+                        <li>Quinto Círculo: Rio Estige (ira);
+                        </li>
+                        <li>Sexto Círculo: Cemitério de Fogo (heresia);
+                        </li>
+                        <li>Sétimo Círculo: Vale do Flegetonte (violência);
+                        </li>
+                        <li>Oitavo Círculo: o Malebolge (fraude);
+                        </li>
+                        <li>Nono Círculo: Lago Cocite (traição).
 
-                        </ol>
-                    </ol>
+                        </li>
+                    </ul>
 
-                <p>A obra também traz muitas críticas a pessoas importantes daquela época, como escritores, filósofos e políticos, algumas de forma pessoal e outras do contexto social. A aparição de criaturas mitológicas também é interessante, com sua incrível habilidade de descrever com perfeito detalhe cada criatura, torna a leitura ainda mais interessante. Um ponto muito interessante é a humanidade com que Dante trata os pecadores de cada círculo, relatando com tristeza a sua punição naquele lugar abominável.
+                <p>A obra também traz muitas críticas a pessoas importantes daquela época, como escritores, filósofos e políticos, algumas de forma pessoal e outras do contexto social, como se passase uma mensagem de que suas ideias vão contra as ideologias da época.
                 </p>
+
+                <p>As aparições de criaturas mitológicas também é interessante, com sua incrível habilidade de descrever com perfeito detalhe cada monstro daquele lugar, torna a leitura ainda mais interessante. Um ponto muito interessante e bastante perceptível é a humanidade com que Dante trata os pecadores de cada círculo, relatando com tristeza a sua punição naquele lugar abominável.</p>
 
                 <p>Em resumo, O Inferno de Dante Alighieri é uma obra-prima literária que oferece uma exploração fascinante da moralidade, teologia e política da Idade Média. Sua riqueza simbólica, imaginação poética e estrutura cuidadosa garantem sua relevância ao longo dos séculos, mesmo que alguns aspectos da obra possam gerar controvérsias e debates entre os leitores contemporâneos.</p>
+
+                <h3>
+                    Segue a baixo algumas ilustrações fascinantes dessa obra-prima:
+                </h3>
+
+
+                <div id="dante">
+                    <img src="imagens/633-A-Divina-Comedia-Livro2.jpg" alt="">
+                </div>
+                <div id="imagens">
+                    <img src="imagens/foto-dante-selva-nova2.jpg"><img src="imagens/foto-homem-semcabeça-certo2.jpg"><img src="imagens/foto-monstros-certo2.jpg">
+                </div>
 
             </article>
         </main>
         <footer>
-            Site criado por Maxsuel Ismark
+            Site criado por <a href="https://github.com/MaxsuelIsmark">Maxsuel Ismark</a>
         </footer>
 </body>
 </html>
